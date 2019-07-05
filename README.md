@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Default starter for Gridsome
 
 This is the project you get when you run `gridsome create new-project`.
@@ -12,3 +13,7 @@ This is the project you get when you run `gridsome create new-project`.
 2. `cd my-gridsome-site` to open the folder
 3. `gridsome develop` to start a local dev server at `http://localhost:8080`
 4. Happy coding 🎉🙌
+=======
+# my-gridsome-portfolio
+Gridsome &amp; Bootstrap portfolio starter site for Jamstack beginners.
+>>>>>>> 09484af74d8b0cc502deebe68612b6de3eeb84a4
