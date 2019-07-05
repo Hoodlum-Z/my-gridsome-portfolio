@@ -1,6 +1,7 @@
 ---
 title: This is Sample Project 2
 description: This is sample number two
+image: "/uploads/Choosing-the-Right-Driving-School.jpg"
 ---
 
 # This is an Amazing Project!

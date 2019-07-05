@@ -1,6 +1,7 @@
 ---
 title: This is Sample Project 1
 description: This is sample number one
+image: "/uploads/Car-Dashboard.jpg"
 ---
 
 # This is a Totally Awesome Project

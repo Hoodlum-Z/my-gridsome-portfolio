@@ -1,6 +1,7 @@
 ---
 title: Check out Sample Project 3
 description: This is sample number three
+image: "/uploads/Future-Car-Technology.jpg"
 ---
 
 # This is a Project from Heaven

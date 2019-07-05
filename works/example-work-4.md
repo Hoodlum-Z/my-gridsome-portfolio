@@ -1,6 +1,7 @@
 ---
 title: This Sample Project 4
 description: This is sample number four
+image: "/uploads/Staying-Relaxed-on-Driving-Test-Day.jpg"
 ---
 
 # This Sample Project Rocks!

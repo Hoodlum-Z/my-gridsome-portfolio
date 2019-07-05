@@ -4,17 +4,17 @@ export default [
     component: () => import(/* webpackChunkName: "page--src-pages-about-vue" */ "C:\\Users\\David\\my-gridsome-portfolio\\src\\pages\\About.vue")
   },
   {
-    name: "404",
-    path: "/404",
-    component: () => import(/* webpackChunkName: "page--node-modules-gridsome-app-pages-404-vue" */ "C:\\Users\\David\\my-gridsome-portfolio\\node_modules\\gridsome\\app\\pages\\404.vue")
-  },
-  {
     name: "home",
     path: "/",
     component: () => import(/* webpackChunkName: "page--src-pages-index-vue" */ "C:\\Users\\David\\my-gridsome-portfolio\\src\\pages\\Index.vue"),
     meta: {
       data: true
     }
+  },
+  {
+    name: "404",
+    path: "/404",
+    component: () => import(/* webpackChunkName: "page--node-modules-gridsome-app-pages-404-vue" */ "C:\\Users\\David\\my-gridsome-portfolio\\node_modules\\gridsome\\app\\pages\\404.vue")
   },
   {
     path: "/works:slug",

@@ -22,6 +22,7 @@
 
             <g-link :to="work.node.path">   
               <div class="Work-Card">
+                <g-image v-if="work.node.image != null" :src="work.node.image"></g-image>
                 <h2 class="Work-Title">{{work.node.title}}</h2>
                 <p>{{work.node.description}}</p>
               </div>
@@ -43,6 +44,7 @@
         title
         description
         path
+        image (width: 500, quality: 90, blur: 10)
         content
       }
     }
