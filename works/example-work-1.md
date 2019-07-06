@@ -6,15 +6,15 @@ image: "/uploads/Car-Dashboard.jpg"
 
 # This is a Totally Awesome Project
 
-I'm your friendly Markdown file. You can find me in the works folder of this site if you wish to edit me. 
+I'm your friendly Markdown file. You can find me in the **works** folder of this site if you wish to edit me. 
 
 It's easier to see what's going on under the hood if you look inside the file and compare it to what's rendered here.
 
-At the top you'll notice two lots of three dashes. The content included between those lines is Front-Matter. It's used by search engines and GraphQL when querying data.
+At the top you'll notice two lots of three --- dashes. The content included between those lines is called **Front-Matter**. It's used by search engines and GraphQL when querying data.
 
-Do your research on Markdown files. There's nothing to worry about.
+Do your research on [Markdown Files](https://www.markdownguide.org/). There's nothing to worry about.
 
-If you want to include a heading you use the hash symbol like so:
+If you want to include a heading you use the hash # symbol like so:
 
 # H1 Size Heading
 
@@ -31,7 +31,7 @@ List
 - Dogs
 - Birds
 
-It's really easy - that's why it was chosen for the Jamstack!
+It's really easy - that's why it was chosen for the [Jamstack!](https://jamstack.org/)
 
 **Bold** (and asterixes for bold text)
 

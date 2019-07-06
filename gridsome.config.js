@@ -6,16 +6,20 @@
 
 module.exports = {
   siteName: 'My Gridsome Portfolio',
+  siteDescription: 'Gridsome and Bootstrap portfolio starter site',
+  siteUrl: 'https://my-gridsome-portfolio.netlify.com/',
+
   plugins: [
     {
       use: '@gridsome/source-filesystem',
       options: {
         path: 'works/**/*.md',
         typeName: 'Work',
-        route: '/works:slug',
+        route: '/works/:slug',
+        resolveAbsolutePaths: true,
         remark: {
           plugins: [
-            '@gridsome/remark-prismjs'
+            // local plugins
           ]
         }
       }
@@ -23,7 +27,10 @@ module.exports = {
   ],
   transformers: {
     remark: {
+      plugins: [
       // global remark options
+        '@gridsome/remark-prismjs'
+      ]
     }
   }
 }

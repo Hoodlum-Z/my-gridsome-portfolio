@@ -11,7 +11,8 @@
 </nav>
 
     <slot/>
-
+    
+    <Footer/>
   </div>
 </template>
 
@@ -22,6 +23,16 @@ query {
   }
 }
 </static-query>
+
+<script>
+import Footer from '~/components/Footer.vue'
+
+export default {
+  components: {
+    Footer
+  }
+}
+</script>
 
 <style>
 body {
@@ -43,7 +54,4 @@ body {
   margin:  0 20px;
 }
 
-.layout {
-  padding: 0 10rem;
-}
 </style>

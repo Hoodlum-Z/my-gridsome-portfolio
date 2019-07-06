@@ -17,7 +17,7 @@ export default [
     component: () => import(/* webpackChunkName: "page--node-modules-gridsome-app-pages-404-vue" */ "C:\\Users\\David\\my-gridsome-portfolio\\node_modules\\gridsome\\app\\pages\\404.vue")
   },
   {
-    path: "/works:slug",
+    path: "/works/:slug",
     component: () => import(/* webpackChunkName: "page--src-templates-work-vue" */ "C:\\Users\\David\\my-gridsome-portfolio\\src\\templates\\Work.vue"),
     meta: {
       data: true

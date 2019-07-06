@@ -2,7 +2,7 @@
   <Layout>
 
     <div class="jumbotron Hero">
-      <h1 class="display-4">My Gridsome Portfolio</h1>
+      <h1 class="display-4">My <a href="https://gridsome.org">Gridsome</a> Portfolio</h1>
       <h6 class="lead">Gridsome enables you to build the coolest websites using the Jamstack.</h6>
       <hr class="my-4">
         <ul class="List">
@@ -14,7 +14,7 @@
     </div>
 
     <div class="PortfolioWorks container" id="works">
-            <h2 class="Portfolio-Title">Portfolio Works</h2>
+            <h2 class="Portfolio-Title">Some of my Latest Projects</h2>
 
         <div class="row">
          
@@ -22,7 +22,7 @@
 
             <g-link :to="work.node.path">   
               <div class="Work-Card">
-                <g-image v-if="work.node.image != null" :src="work.node.image"></g-image>
+                <g-image class="Work-Image" v-if="work.node.image != null" :src="work.node.image"></g-image>
                 <h2 class="Work-Title">{{work.node.title}}</h2>
                 <p>{{work.node.description}}</p>
               </div>
@@ -44,7 +44,7 @@
         title
         description
         path
-        image (width: 500, quality: 90, blur: 10)
+        image (width: 470, quality: 90, blur: 10)
         content
       }
     }
@@ -55,7 +55,7 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Hello, world!'
+    title: 'My Gridsome Portfolio'
   }
 }
 </script>
@@ -68,6 +68,8 @@ export default {
 
 .List {
   text-align: left;
+  margin: auto;
+  width: 50%;
   line-height: 3;
 }
 
@@ -99,8 +101,22 @@ p {
   padding: 1rem;
 }
 
+.Work-Title {
+  padding: 1rem 0;
+}
+
+.Work-Image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .home-links a {
   margin-right: 1rem;
+}
+
+.my-4 {
+  width: 50%;
 }
 
 </style>

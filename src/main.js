@@ -3,6 +3,7 @@
 
 import DefaultLayout from '~/layouts/Default.vue'
 import '~/vendor/bootstrap.min.css'
+import '~/components/Footer.vue'
 
 export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component

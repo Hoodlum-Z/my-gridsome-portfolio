@@ -22,7 +22,7 @@ query Works ($path: String!) {
  work: work (path: $path) {
     title
     description
-    image (width: 500, quality: 90, blur: 10)
+    image (width: 800, quality: 90, blur: 10)
     content
  }
 }
@@ -30,8 +30,11 @@ query Works ($path: String!) {
 
 <style>
 
-image {
-    width: 500px;
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1rem;
 }
 
 </style>
