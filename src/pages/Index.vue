@@ -2,6 +2,8 @@
   <Layout>
 
     <div class="jumbotron Hero">
+      <div class="row">
+          <div class="col-6 Main-Col">
       <h1 class="display-4">My <a href="https://gridsome.org">Gridsome</a> Portfolio</h1>
       <h6 class="lead">Gridsome enables you to build the coolest websites using the Jamstack.</h6>
       <hr class="my-4">
@@ -12,13 +14,15 @@
       </ul>
             <a class="Button btn btn-primary btn-lg" href="#works" role="button">Portfolio Works</a>
     </div>
+        </div>
+    </div>
 
     <div class="PortfolioWorks container" id="works">
             <h2 class="Portfolio-Title">Some of my Latest Projects</h2>
 
         <div class="row">
          
-          <div class="Work col-md-6" v-for="work in $page.allWork.edges" :key="work.node.id">
+          <div class="Work col-6" v-for="work in $page.allWork.edges" :key="work.node.id">
 
             <g-link :to="work.node.path">   
               <div class="Work-Card">
@@ -61,16 +65,21 @@ export default {
 </script>
 
 <style>
+
 .Hero {
   padding: 8rem;
   text-align: center;
 }
 
+.Main-Col {
+  margin: 0 auto;
+  align-items: center;
+}
+
 .List {
   text-align: left;
   margin: auto;
-  width: 50%;
-  line-height: 3;
+  line-height: 2;
 }
 
 .Button {
@@ -113,10 +122,6 @@ p {
 
 .home-links a {
   margin-right: 1rem;
-}
-
-.my-4 {
-  width: 50%;
 }
 
 </style>
