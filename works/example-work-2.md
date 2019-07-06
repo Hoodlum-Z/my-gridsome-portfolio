@@ -39,6 +39,6 @@ It's really easy - that's why it was chosen for the Jamstack!
 
 My favorite search engine is [Duck Duck Go](https://duckduckgo.com).
 
-You can also find more information in the [Markdown Guide](https://www.markdownguide.org/)
+You can also find more information in the [Markdown Guide](https://www.markdownguide.org/).
 
 Good luck!

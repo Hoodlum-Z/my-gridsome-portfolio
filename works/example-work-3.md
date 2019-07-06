@@ -4,7 +4,7 @@ description: This is sample number three
 image: "/uploads/Future-Car-Technology.jpg"
 ---
 
-# This is a Project from Heaven
+# This is a Gridsome Project
 
 I'm your friendly Markdown file. You can find me in the **works** folder of this site if you wish to edit me. 
 
@@ -39,6 +39,6 @@ It's really easy - that's why it was chosen for the Jamstack!
 
 My favorite search engine is [Duck Duck Go](https://duckduckgo.com).
 
-You can also find more information in the [Markdown Guide](https://www.markdownguide.org/)
+You can also find more information in the [Markdown Guide](https://www.markdownguide.org/).
 
 Good luck!
