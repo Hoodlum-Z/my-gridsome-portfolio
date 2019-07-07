@@ -35,6 +35,10 @@ It's really easy - that's why it was chosen for the Jamstack!
 
 **Bold** (and asterixes for bold text)
 
+*Italic*
+
+'Monospace'
+
 ### Links
 
 My favorite search engine is [Duck Duck Go](https://duckduckgo.com).
